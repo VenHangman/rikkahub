@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 只映射剪贴板暂存目录 cache/image_clipboard/，不暴露其它缓存内容 -->
+<paths>
+  <cache-path
+    name="image_clipboard"
+    path="image_clipboard/" />
+</paths>

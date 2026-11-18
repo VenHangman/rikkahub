@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 图片长按菜单 -->
+    <string name="chat_image_menu_long_press">Image options</string>
+    <string name="chat_image_copy">Copy Image</string>
+    <string name="chat_image_copy_success">Image copied</string>
+    <string name="chat_image_copy_failed">Couldn\'t copy this image</string>
+</resources>

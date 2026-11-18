@@ -159,6 +159,15 @@
         android:resource="@xml/file_paths" />
     </provider>
     <provider
+      android:name=".utils.ImageClipboardFileProvider"
+      android:authorities="${applicationId}.image_clipboard"
+      android:exported="false"
+      android:grantUriPermissions="true">
+      <meta-data
+        android:name="android.support.FILE_PROVIDER_PATHS"
+        android:resource="@xml/image_clipboard_paths" />
+    </provider>
+    <provider
       android:name=".service.WorkspaceDocumentsProvider"
       android:authorities="${applicationId}.documents"
       android:exported="true"
